@@ -1,0 +1,62 @@
+body {
+  background-image: url("../portfolio_2/assests/background5.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Mallanna', sans-serif;
+
+}
+
+.navbar{
+opacity: .75;
+}
+
+.intro{
+  background: linear-gradient(0deg, rgb(45, 50, 61) 0%, rgba(255, 255, 255, 0.604) 100%);
+  border: 3px solid black;
+  padding: 20 px;
+  width: 275 px;
+  border-radius: 10 px;
+  -moz-border-radius: 10 px;
+  -webkit-border-radius: 10 px;
+}
+
+.footer{
+  background: linear-gradient(0deg, rgb(45, 50, 61) 0%, rgba(255, 255, 255, 0.604) 100%);
+  position: relative;
+  text-align: center;
+}
+
+.carousel-caption{
+  background: linear-gradient(0deg, rgb(45, 50, 61) 0%, rgba(53, 40, 40, 0.604) 100%);
+}
+
+.carousel{
+  background: linear-gradient(0deg, rgb(45, 50, 61) 0%, rgba(255, 255, 255, 0.604) 100%);
+}
+
+.contact{
+  background: linear-gradient(0deg, rgb(45, 50, 61) 0%, rgba(255, 255, 255, 0.604) 100%);
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 12px 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-weight: 700;
+  font-size: 15px !important;
+}
+.btn:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.btn:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  opacity: .75;
+}
+
